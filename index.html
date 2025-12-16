@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneRelay - Intelligence Retail pour Boutiques de Mode</title>
+    <meta name="description" content="Transformez vos campagnes promotionnelles en expériences personnalisées. Passez de 5% à 40% de conversion avec OneRelay.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#2563eb"/>
+                    <circle cx="35" cy="40" r="8" fill="white"/>
+                    <circle cx="65" cy="40" r="8" fill="white"/>
+                    <circle cx="50" cy="65" r="10" fill="white"/>
+                    <path d="M35 40 L50 65" stroke="white" stroke-width="3"/>
+                    <path d="M65 40 L50 65" stroke="white" stroke-width="3"/>
+                    <path d="M35 40 L65 40" stroke="white" stroke-width="3"/>
+                </svg>
+                <span>OneRelay</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#demo">Démo</a>
+                <a href="#pricing">Tarifs</a>
+                <a href="#book-demo" class="btn btn-primary">Réserver une démo</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">🚀 Nouveau en Afrique Centrale</div>
+                <h1>Transformez vos SMS en <span class="gradient-text">ventes personnalisées</span></h1>
+                <p class="hero-subtitle">
+                    Fini les promotions génériques à 5% de conversion. OneRelay segmente intelligemment vos clients 
+                    et envoie le bon message, à la bonne personne, au bon moment.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">5-10%</span>
+                        <span class="stat-label">Conversion actuelle</span>
+                    </div>
+                    <div class="stat-arrow">→</div>
+                    <div class="stat highlight">
+                        <span class="stat-value">30-40%</span>
+                        <span class="stat-label">Avec OneRelay</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#book-demo" class="btn btn-primary btn-lg">
+                        Réserver une démo gratuite
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn btn-secondary btn-lg">Voir la plateforme</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="sms-preview">
+                            <div class="sms old">
+                                <span class="sms-icon">📢</span>
+                                <p>"PROMO -30% sur TOUT le magasin ce weekend!"</p>
+                                <span class="sms-result bad">❌ 5% conversion</span>
+                            </div>
+                            <div class="sms new">
+                                <span class="sms-icon">🎯</span>
+                                <p>"Bonjour Marie! Vos Nike Air Max préférées sont à -30% en pointure 38!"</p>
+                                <span class="sms-result good">✅ 40% conversion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2>Le problème des boutiques aujourd'hui</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">📱</div>
+                    <h3>SMS génériques</h3>
+                    <p>Vous envoyez le même message à tous vos clients, qu'ils aiment les robes ou les sneakers.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">💸</div>
+                    <h3>Budget gaspillé</h3>
+                    <p>95% de vos SMS sont ignorés. Votre budget marketing part en fumée.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">😤</div>
+                    <h3>Clients agacés</h3>
+                    <p>Trop de messages non pertinents = désabonnements et mauvaise image.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comment OneRelay transforme votre boutique</h2>
+                <p>Une plateforme simple qui comprend vos clients</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👤</div>
+                    <h3>Profils clients enrichis</h3>
+                    <p>Enregistrez les préférences de chaque client : taille, pointure, style favori, budget moyen.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Segmentation intelligente</h3>
+                    <p>Créez des groupes automatiques : "Femmes taille M qui aiment les robes" ou "Hommes pointure 43 fans de sneakers".</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Campagnes ciblées</h3>
+                    <p>Envoyez des promotions personnalisées uniquement aux clients concernés.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Suivi des résultats</h3>
+                    <p>Mesurez l'impact de chaque campagne : taux d'ouverture, conversions, revenus générés.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛍️</div>
+                    <h3>Catalogue produits</h3>
+                    <p>Gérez votre inventaire et associez les bons produits aux bonnes campagnes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile-first</h3>
+                    <p>Gérez tout depuis votre smartphone, même en déplacement dans votre boutique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Preview Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Découvrez la plateforme</h2>
+                <p>Une interface intuitive conçue pour les boutiques africaines</p>
+            </div>
+            <div class="demo-showcase">
+                <div class="demo-tabs">
+                    <button class="demo-tab active" data-tab="customers">
+                        <span class="tab-icon">👥</span>
+                        Clients
+                    </button>
+                    <button class="demo-tab" data-tab="campaigns">
+                        <span class="tab-icon">📣</span>
+                        Campagnes
+                    </button>
+                    <button class="demo-tab" data-tab="products">
+                        <span class="tab-icon">👗</span>
+                        Produits
+                    </button>
+                    <button class="demo-tab" data-tab="analytics">
+                        <span class="tab-icon">📈</span>
+                        Analytics
+                    </button>
+                </div>
+                <div class="demo-preview">
+                    <div class="demo-screen active" id="screen-customers">
+                        <div class="screen-header">
+                            <h4>Gestion des clients</h4>
+                            <p>Enregistrez les préférences en quelques clics</p>
+                        </div>
+                        <div class="screen-mockup">
+                            <div class="mockup-card">
+                                <div class="customer-row">
+                                    <div class="customer-avatar">MK</div>
+                                    <div class="customer-info">
+                                        <strong>Marie Kouassi</strong>
+                                        <span>Taille M • Pointure 38 • Robes, Talons</span>
+                                    </div>
+                                    <span class="customer-badge vip">VIP</span>
+                                </div>
+                                <div class="customer-row">
+                                    <div class="customer-avatar">JN</div>
+                                    <div class="customer-info">
+                                        <strong>Jean Nkodo</strong>
+                                        <span>Taille L • Pointure 43 • Sneakers, Casual</span>
+                                    </div>
+                                    <span class="customer-badge regular">Régulier</span>
+                                </div>
+                                <div class="customer-row">
+                                    <div class="customer-avatar">AF</div>
+                                    <div class="customer-info">
+                                        <strong>Amina Fofana</strong>
+                                        <span>Taille S • Pointure 36 • Élégant, Accessoires</span>
+                                    </div>
+                                    <span class="customer-badge new">Nouveau</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-screen" id="screen-campaigns">
+                        <div class="screen-header">
+                            <h4>Campagnes ciblées</h4>
+                            <p>Le bon message aux bons clients</p>
+                        </div>
+                        <div class="screen-mockup">
+                            <div class="mockup-card campaign-card">
+                                <div class="campaign-header">
+                                    <span class="campaign-status active">● Active</span>
+                                    <strong>Promo Sneakers Homme</strong>
+                                </div>
+                                <div class="campaign-target">
+                                    🎯 Cible: Hommes • Pointure 42-44 • Style Sneakers
+                                </div>
+                                <div class="campaign-message">
+                                    "Hey [Prénom]! Tes sneakers Nike préférées sont à -30% en [pointure]!"
+                                </div>
+                                <div class="campaign-stats">
+                                    <div class="camp-stat">
+                                        <span class="camp-stat-value">127</span>
+                                        <span class="camp-stat-label">Envoyés</span>
+                                    </div>
+                                    <div class="camp-stat">
+                                        <span class="camp-stat-value">89%</span>
+                                        <span class="camp-stat-label">Lus</span>
+                                    </div>
+                                    <div class="camp-stat highlight">
+                                        <span class="camp-stat-value">38%</span>
+                                        <span class="camp-stat-label">Conversion</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-screen" id="screen-products">
+                        <div class="screen-header">
+                            <h4>Catalogue produits</h4>
+                            <p>Gérez votre inventaire facilement</p>
+                        </div>
+                        <div class="screen-mockup">
+                            <div class="mockup-card products-grid">
+                                <div class="product-item">
+                                    <div class="product-img">👟</div>
+                                    <div class="product-details">
+                                        <strong>Nike Air Max</strong>
+                                        <span>45,000 FCFA</span>
+                                        <span class="stock">Stock: 12</span>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-img">👗</div>
+                                    <div class="product-details">
+                                        <strong>Robe Été Fleurie</strong>
+                                        <span>28,000 FCFA</span>
+                                        <span class="stock">Stock: 8</span>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-img">👜</div>
+                                    <div class="product-details">
+                                        <strong>Sac Cuir Premium</strong>
+                                        <span>55,000 FCFA</span>
+                                        <span class="stock low">Stock: 3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-screen" id="screen-analytics">
+                        <div class="screen-header">
+                            <h4>Tableau de bord</h4>
+                            <p>Suivez vos performances en temps réel</p>
+                        </div>
+                        <div class="screen-mockup">
+                            <div class="mockup-card analytics-view">
+                                <div class="analytics-row">
+                                    <div class="analytics-metric">
+                                        <span class="metric-value">1,247</span>
+                                        <span class="metric-label">Clients enregistrés</span>
+                                        <span class="metric-trend up">↑ +15%</span>
+                                    </div>
+                                    <div class="analytics-metric">
+                                        <span class="metric-value">36.5%</span>
+                                        <span class="metric-label">Taux de conversion</span>
+                                        <span class="metric-trend up">↑ +24%</span>
+                                    </div>
+                                </div>
+                                <div class="analytics-chart">
+                                    <div class="chart-bar" style="height: 40%"><span>Jan</span></div>
+                                    <div class="chart-bar" style="height: 55%"><span>Fév</span></div>
+                                    <div class="chart-bar" style="height: 45%"><span>Mar</span></div>
+                                    <div class="chart-bar" style="height: 70%"><span>Avr</span></div>
+                                    <div class="chart-bar" style="height: 85%"><span>Mai</span></div>
+                                    <div class="chart-bar active" style="height: 95%"><span>Juin</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-cta">
+                <a href="#book-demo" class="btn btn-primary btn-lg">
+                    Essayer la démo interactive
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Un modèle simple et transparent</h2>
+                <p>Payez uniquement sur vos résultats</p>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-highlight">Offre de lancement</div>
+                <div class="pricing-model">
+                    <div class="pricing-main">
+                        <span class="pricing-percent">3-5%</span>
+                        <span class="pricing-desc">de commission par vente générée</span>
+                    </div>
+                    <div class="pricing-details">
+                        <div class="pricing-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                            <span>Aucun frais d'installation</span>
+                        </div>
+                        <div class="pricing-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                            <span>Aucun abonnement mensuel</span>
+                        </div>
+                        <div class="pricing-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                            <span>Formation et support inclus</span>
+                        </div>
+                        <div class="pricing-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                            <span>Clients illimités</span>
+                        </div>
+                        <div class="pricing-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                            <span>Campagnes illimitées</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#book-demo" class="btn btn-primary btn-lg btn-full">Commencer gratuitement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="book-demo" class="booking-section">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <h2>Réservez votre démo gratuite</h2>
+                    <p>Découvrez comment OneRelay peut transformer votre boutique en 15 minutes.</p>
+                    <div class="booking-benefits">
+                        <div class="benefit">
+                            <span class="benefit-icon">🎯</span>
+                            <div>
+                                <strong>Démo personnalisée</strong>
+                                <p>Adaptée à votre type de boutique</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <span class="benefit-icon">⏱️</span>
+                            <div>
+                                <strong>15 minutes seulement</strong>
+                                <p>Rapide et efficace</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <span class="benefit-icon">🆓</span>
+                            <div>
+                                <strong>Sans engagement</strong>
+                                <p>Aucune obligation d'achat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form-container">
+                    <form id="demo-form" class="booking-form">
+                        <div class="form-group">
+                            <label for="shop_name">Nom de votre boutique *</label>
+                            <input type="text" id="shop_name" name="shop_name" required placeholder="Ex: Boutique Élégance">
+                        </div>
+                        <div class="form-group">
+                            <label for="owner_name">Votre nom *</label>
+                            <input type="text" id="owner_name" name="owner_name" required placeholder="Ex: Marie Kouassi">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numéro WhatsApp *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Ex: +237 6XX XXX XXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Ex: marie@boutique.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Ville *</label>
+                            <select id="city" name="city" required>
+                                <option value="">Sélectionnez votre ville</option>
+                                <option value="yaounde">Yaoundé</option>
+                                <option value="douala">Douala</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="shop_type">Type de boutique *</label>
+                            <select id="shop_type" name="shop_type" required>
+                                <option value="">Sélectionnez le type</option>
+                                <option value="fashion">Mode / Vêtements</option>
+                                <option value="shoes">Chaussures</option>
+                                <option value="accessories">Accessoires</option>
+                                <option value="multi">Multi-catégories</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="customers">Nombre de clients estimé</label>
+                            <select id="customers" name="customers">
+                                <option value="">Sélectionnez</option>
+                                <option value="0-100">Moins de 100</option>
+                                <option value="100-500">100 - 500</option>
+                                <option value="500-1000">500 - 1000</option>
+                                <option value="1000+">Plus de 1000</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            <span class="btn-text">Accéder à la démo</span>
+                            <span class="btn-loading" style="display: none;">
+                                <svg class="spinner" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="60" stroke-linecap="round"/>
+                                </svg>
+                                Envoi en cours...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">🎉</div>
+            <h3>Inscription réussie !</h3>
+            <p>Merci <span id="modal-name"></span> de <span id="modal-shop"></span> !</p>
+            <p>Découvrez maintenant notre plateforme en action :</p>
+            <a href="https://claude.ai/public/artifacts/76c5fc50-03d3-4e02-b077-398fd171d0ee" target="_blank" class="btn btn-primary btn-lg">
+                🚀 Accéder à la démo interactive
+            </a>
+            <p class="modal-note">Nous vous contacterons bientôt sur WhatsApp pour une démonstration personnalisée.</p>
+            <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#2563eb"/>
+                            <circle cx="35" cy="40" r="8" fill="white"/>
+                            <circle cx="65" cy="40" r="8" fill="white"/>
+                            <circle cx="50" cy="65" r="10" fill="white"/>
+                            <path d="M35 40 L50 65" stroke="white" stroke-width="3"/>
+                            <path d="M65 40 L50 65" stroke="white" stroke-width="3"/>
+                            <path d="M35 40 L65 40" stroke="white" stroke-width="3"/>
+                        </svg>
+                        <span>OneRelay</span>
+                    </a>
+                    <p>L'intelligence retail pour les boutiques africaines.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Produit</h4>
+                        <a href="#features">Fonctionnalités</a>
+                        <a href="#demo">Démo</a>
+                        <a href="#pricing">Tarifs</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <a href="mailto:contact@onerelay.cm">contact@onerelay.cm</a>
+                        <a href="tel:+237600000000">+237 6XX XXX XXX</a>
+                        <a href="#">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 OneRelay. Conçu avec ❤️ au Cameroun.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
