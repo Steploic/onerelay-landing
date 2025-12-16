@@ -4,9 +4,9 @@
 
 /* CSS Variables */
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
-    --primary-light: #3b82f6;
+    --primary: #22B8CF;
+    --primary-dark: #1CA3B8;
+    --primary-light: #3CC9DD;
     --secondary: #0f172a;
     --accent: #22c55e;
     --background: #ffffff;
@@ -138,6 +138,12 @@ h3 { font-size: 1.25rem; }
     font-weight: 800;
     color: var(--text);
     text-decoration: none;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    border-radius: 8px;
 }
 
 .nav-links {
