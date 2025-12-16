@@ -294,8 +294,8 @@ MIT License - Voir [LICENSE](LICENSE) pour plus de détails.
 ## 📞 Contact
 
 **OneRelay Team**
-- Email: contact@onerelay.cm
-- WhatsApp: +237 6XX XXX XXX
+- Email: contact.1relay@gmail.com
+- WhatsApp: +237 6 59 03 61 12
 - Site: [onerelay.cm](https://onerelay.cm)
 
 ---
